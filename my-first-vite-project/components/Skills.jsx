@@ -22,7 +22,7 @@ function ContactInfo() {
       </li>
       <li id="website">
         <a
-          href="https://erosachilea.eu.pythonanywhere.com"
+          href="https://erosachillea.eu.pythonanywhere.com"
           target="_blank"
           rel="noreferrer"
         >
