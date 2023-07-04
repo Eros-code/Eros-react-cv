@@ -7,15 +7,21 @@ function Education() {
       <h1 className="section-heading">Education</h1>
       <hr />
       <div className="row">
-        <p className="education-title">
+        <p className="education-title p-row">
           <strong>Queen Mary University</strong>
+          <span className="experience-title">
+            London, UK <br /> 2018 - 2021
+          </span>
         </p>
         <p>School of Physics and Astronomy</p>
         <p>Physics Bsc (Hons) - 1st class (86.5%)</p>
       </div>
       <div className="row">
-        <p className="education-title">
+        <p className="education-title p-row">
           <strong>Edmonton County School</strong>
+          <span className="experience-title">
+            London, UK <br /> 2016 - 2018
+          </span>
         </p>
         <p>Sixth Form College</p>
         <p>A levels: Maths - A, Business studies - A, Physics - B</p>
@@ -30,11 +36,11 @@ function Experience() {
       <h1 className="section-heading">Relevant Experience</h1>
       <hr />
       <div className="row">
-        <p>
+        <p className="p-row">
+          <strong>Trainee Software & Data Engineer</strong>{" "}
           <span className="experience-title">
-            <strong>Trainee Software & Data Engineer</strong>
-          </span>{" "}
-          1999
+            London, UK <br /> Oct 22 - Feb 21
+          </span>
         </p>
         <p>Sigma Labs XYZ</p>
       </div>
@@ -57,8 +63,11 @@ function Experience() {
         </ul>
       </div>
       <div className="row">
-        <p>
-          <strong>Quantum Computing Intern</strong>
+        <p className="p-row">
+          <strong>Quantum Computing Intern</strong>{" "}
+          <span className="experience-title">
+            Brighton, UK <br /> Jun 21 - Aug 21
+          </span>
         </p>
         <p>Ionic Quantum Technology Group</p>
       </div>
