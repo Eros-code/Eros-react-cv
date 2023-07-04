@@ -232,3 +232,7 @@ p {
   font-size: 13px;
   line-height: 20px;
 }
+
+.experience-title {
+  margin-right: auto;
+}

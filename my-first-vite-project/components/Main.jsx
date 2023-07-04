@@ -31,7 +31,10 @@ function Experience() {
       <hr />
       <div className="row">
         <p>
-          <strong>Trainee Software & Data Engineer</strong>
+          <span className="experience-title">
+            <strong>Trainee Software & Data Engineer</strong>
+          </span>{" "}
+          1999
         </p>
         <p>Sigma Labs XYZ</p>
       </div>
