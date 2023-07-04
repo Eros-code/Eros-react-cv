@@ -77,7 +77,7 @@ function SkillsList() {
         </li>
         <li className="skills-bullet">
           AWS EC2, AWS S3, AWS Lambda, AWS ECR, Docker, Git/github, Canva,
-          PythonAnywhere, PostgreSQL, Netlify
+          PythonAnywhere, PostgreSQL, Netlify, CLI
         </li>
       </ul>
     </section>
