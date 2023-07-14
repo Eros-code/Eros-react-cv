@@ -39,7 +39,7 @@ function Experience() {
         <p className="p-row">
           <strong>Trainee Software & Data Engineer</strong>{" "}
           <span className="experience-title">
-            London, UK <br /> Oct 21 - Feb 22
+            London, UK <br /> Oct 22 - Feb 23
           </span>
         </p>
         <p>Sigma Labs XYZ</p>
