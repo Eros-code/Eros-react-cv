@@ -37,6 +37,34 @@ function Experience() {
       <hr />
       <div className="row">
         <p className="p-row">
+          <strong>Junior Technology Consultant</strong>{" "}
+          <span className="experience-title">
+            London, UK <br /> Aug 23 - Present
+          </span>
+        </p>
+        <p>Sigma Labs XYZ</p>
+      </div>
+      <div className="row">
+        <ul className="experience_bullets">
+          <li>
+            Experience migrating dashboards from splunk SPL to trino SQL using
+            agile methodologies via Jira kanban boards for key stakeholders /
+            Performance analysts investigating fraud and risk on behalf of the
+            HMRC
+          </li>
+          <li>
+            Responsible for updating, supporting and developing a service
+            support web page used by data product customers.
+          </li>
+          <li>
+            Providing ad hoc technical support to performance analysts and other
+            stakeholders whilst liasing with tier 1 and tier 3 support when
+            needed.
+          </li>
+        </ul>
+      </div>
+      <div className="row">
+        <p className="p-row">
           <strong>Trainee Software & Data Engineer</strong>{" "}
           <span className="experience-title">
             London, UK <br /> Oct 22 - Feb 23
@@ -62,6 +90,15 @@ function Experience() {
           </li>
         </ul>
       </div>
+    </section>
+  );
+}
+
+function InternshipInfo() {
+  return (
+    <section>
+      <h1 className="section-heading">Internship</h1>
+      <hr />
       <div className="row">
         <p className="p-row">
           <strong>Quantum Computing Intern</strong>{" "}
@@ -89,6 +126,8 @@ function Experience() {
       </div>
     </section>
   );
+
+
 }
 
 function AdditionalInfo() {
@@ -134,7 +173,7 @@ export default function Main() {
         </h1>
         <h4 className="header-desc">
           <span className="eros-name">
-            I'm a motivated, Junior Software & Data Engineer looking for my next
+            I'm a motivated, Junior Technology Consultant looking for my next
             role. I have a clear, logical mind with a practical approach to
             problem-solving and a drive to see things through to completion.
           </span>
@@ -142,6 +181,7 @@ export default function Main() {
       </header>
       <Education />
       <Experience />
+      <InternshipInfo />
       <AdditionalInfo />
     </div>
   );
