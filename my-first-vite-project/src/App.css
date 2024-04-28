@@ -326,7 +326,7 @@ p {
 }
 
 #additional-info-heading::before {
-  content: "\f129";
+  content: "\f05a";
   font-family: "FontAwesome";
   padding-right: 8px;
   font-size: 20px;

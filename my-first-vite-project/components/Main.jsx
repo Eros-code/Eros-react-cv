@@ -172,7 +172,7 @@ export default function Main() {
           <span className="eros-name">Erodokridos</span>
           <strong> Achillea</strong>
         </h1>
-        <h3>
+        <h3 className="header-desc">
           <strong>Junior Technology Consultant</strong>
         </h3>
         <h4 className="header-desc">
