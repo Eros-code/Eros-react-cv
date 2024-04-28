@@ -98,7 +98,7 @@ function Experience() {
 function InternshipInfo() {
   return (
     <section>
-      <h1 className="section-heading">Internship</h1>
+      <h1 className="section-heading" id="internship-heading">Internship</h1>
       <hr />
       <div className="row">
         <p className="p-row">
@@ -173,7 +173,7 @@ export default function Main() {
           <strong> Achillea</strong>
         </h1>
         <h3 className="header-desc">
-          <strong>Junior Technology Consultant</strong>
+          <span><strong>Junior Technology Consultant</strong></span>
         </h3>
         <h4 className="header-desc">
           <span className="eros-name">
@@ -185,7 +185,6 @@ export default function Main() {
       <Education />
       <Experience />
       <InternshipInfo />
-      <AdditionalInfo />
     </div>
   );
 }

@@ -325,7 +325,7 @@ p {
   font-size: 20px;
 }
 
-#additional-info-heading::before {
+#internship-heading::before {
   content: "\f05a";
   font-family: "FontAwesome";
   padding-right: 8px;
