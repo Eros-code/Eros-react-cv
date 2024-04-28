@@ -134,7 +134,7 @@ function InternshipInfo() {
 function AdditionalInfo() {
   return (
     <section>
-      <h1 className="section-heading">Additional Info</h1>
+      <h1 className="section-heading" id="additional-info-heading">Additional Info</h1>
       <hr />
       <p>
         <strong>Societies & Activities</strong>
@@ -172,10 +172,12 @@ export default function Main() {
           <span className="eros-name">Erodokridos</span>
           <strong> Achillea</strong>
         </h1>
+        <h3>
+          <strong>Junior Technology Consultant</strong>
+        </h3>
         <h4 className="header-desc">
           <span className="eros-name">
-            I'm a motivated, Junior Technology Consultant looking for my next
-            role. I have a clear, logical mind with a practical approach to
+            I have a clear, logical mind with a practical approach to
             problem-solving and a drive to see things through to completion.
           </span>
         </h4>

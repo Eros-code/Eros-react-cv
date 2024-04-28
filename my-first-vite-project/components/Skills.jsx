@@ -146,7 +146,7 @@ function Languages() {
 function Interests() {
   return (
     <section>
-      <h1 className="section-heading">Interests</h1>
+      <h1 className="section-heading" id="interests-heading">Interests</h1>
       <hr />
       <ul className="modules-list">
         <li id="guitar">Playing guitar</li>

@@ -317,3 +317,17 @@ p {
   padding-right: 8px;
   font-size: 20px;
 }
+
+#interests-heading::before {
+  content: "\f441";
+  font-family: "FontAwesome";
+  padding-right: 8px;
+  font-size: 20px;
+}
+
+#additional-info-heading::before {
+  content: "\f129";
+  font-family: "FontAwesome";
+  padding-right: 8px;
+  font-size: 20px;
+}
