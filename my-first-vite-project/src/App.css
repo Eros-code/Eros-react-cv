@@ -244,3 +244,32 @@ p {
   line-height: 18px;
   text-align: right;
 }
+
+/* ============= Interests list styling =============== */
+#Gym::before {
+  content: "\f44b";
+  font-family: "FontAwesome";
+  padding-right: 5px;
+  font-size: 20px;
+}
+
+#Reading::before {
+  content: "\f02d";
+  font-family: "FontAwesome";
+  padding-right: 5px;
+  font-size: 20px;
+}
+
+#guitar::before {
+  content: "\f7a6";
+  font-family: "FontAwesome";
+  padding-right: 5px;
+  font-size: 20px;
+}
+
+#health::before {
+  content: "\f21e";
+  font-family: "FontAwesome";
+  padding-right: 5px;
+  font-size: 20px;
+}

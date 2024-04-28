@@ -47,18 +47,19 @@ function Experience() {
       <div className="row">
         <ul className="experience_bullets">
           <li>
-            Experience migrating dashboards from splunk SPL to trino SQL using
-            agile methodologies via Jira kanban boards for key stakeholders /
+            Experience migrating dashboards and over 70+ analytical queries from splunk SPL to trino SQL using
+            agile methodologies via Jira kanban boards for key stakeholders including
             Performance analysts investigating fraud and risk on behalf of the
-            HMRC
+            HMRC.
           </li>
           <li>
-            Responsible for updating, supporting and developing a service
-            support web page used by data product customers.
+            Responsible for continually updating, supporting, developing and deploying a service
+            support web page used by data product customers. In turn greatly improving and simplifying 
+            the management and communication between product owners, technical support staff and customers.
           </li>
           <li>
             Providing ad hoc technical support to performance analysts and other
-            stakeholders whilst liasing with tier 1 and tier 3 support when
+            stakeholders whilst liaising with tier 1 and tier 3 support when
             needed.
           </li>
         </ul>

@@ -53,7 +53,7 @@ function RelevantModules() {
   );
 }
 
-function SkillsList() {
+function TechSkillsList() {
   return (
     <section>
       <h1 className="section-heading">Skills</h1>
@@ -77,12 +77,21 @@ function SkillsList() {
         </li>
         <li className="skills-bullet">
           AWS EC2, AWS S3, AWS Lambda, AWS ECR, Docker, Git/github, Canva,
-          PythonAnywhere, PostgreSQL, Netlify, CLI
+          PythonAnywhere, PostgreSQL, Netlify, CLI, Visual Studio Code,
+          IntelliJ, JIRA, Confluence, Agile Methodology
+        </li>
+        <li>
+          <strong>Essential Characteristics:</strong>
+        </li>
+        <li className="skills-bullet">
+          Presentation, Verbal and written communication, Teamwork,
+          Collaboration, Problem solving, Curiosity, Analytical
         </li>
       </ul>
     </section>
   );
 }
+
 
 function RecentProjects() {
   return (
@@ -120,16 +129,30 @@ function RecentProjects() {
   );
 }
 
+function Languages() {
+  return (
+    <section>
+      <h1 className="section-heading">Languages</h1>
+      <hr />
+      <ul className="modules-list">
+        <li>English (Native proficiency)</li>
+        <li>Greek (Intermediate proficiency)</li>
+      </ul>
+      <br />
+    </section>
+  );
+}
+
 function Interests() {
   return (
     <section>
       <h1 className="section-heading">Interests</h1>
       <hr />
       <ul className="modules-list">
-        <li>Playing guitar</li>
-        <li>Learning about physical & mental health</li>
-        <li>Boxing</li>
-        <li>Reading</li>
+        <li id="guitar">Playing guitar</li>
+        <li id="health">Learning about physical & mental health</li>
+        <li id="Gym">Gym</li>
+        <li id="Reading">Reading</li>
       </ul>
       <br />
     </section>
@@ -141,8 +164,9 @@ export default function Skills() {
     <div className="skills-page-container">
       <ContactInfo />
       <RelevantModules />
-      <SkillsList />
+      <TechSkillsList />
       <RecentProjects />
+      <Languages />
       <Interests />
     </div>
   );
