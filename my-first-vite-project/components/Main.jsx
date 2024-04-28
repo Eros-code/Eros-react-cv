@@ -172,8 +172,8 @@ export default function Main() {
           <span className="eros-name">Erodokridos</span>
           <strong> Achillea</strong>
         </h1>
-        <h3 className="header-desc">
-          <span><strong>Junior Technology Consultant</strong></span>
+        <h3 className="header-desc" id="job-title">
+          <strong>Junior Technology Consultant</strong>
         </h3>
         <h4 className="header-desc">
           <span className="eros-name">

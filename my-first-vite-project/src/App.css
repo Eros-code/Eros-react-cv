@@ -82,6 +82,10 @@
   margin-left: 15px;
 }
 
+#job-title {
+  margin-left: 0px;
+}
+
 .eros-name {
   font-weight: normal;
 }
