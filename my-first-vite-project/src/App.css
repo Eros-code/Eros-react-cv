@@ -87,6 +87,10 @@
   margin-top: -10px;
 }
 
+#intro-description {
+  margin-top: 10px;
+}
+
 .eros-name {
   font-weight: normal;
 }

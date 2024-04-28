@@ -175,7 +175,7 @@ export default function Main() {
         <h1 className="header-desc" id="job-title">
           <strong>Junior Technology Consultant</strong>
         </h1>
-        <h4 className="header-desc">
+        <h4 className="header-desc" id="intro-description">
           <span className="eros-name">
             I have a clear, logical mind with a practical approach to
             problem-solving and a drive to see things through to completion.
