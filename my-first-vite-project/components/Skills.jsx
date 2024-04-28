@@ -41,7 +41,7 @@ function ContactInfo() {
 function RelevantModules() {
   return (
     <section className="relevant-modules">
-      <h1 className="section-heading">Relevant Modules</h1>
+      <h1 className="section-heading" id="modules-heading">Relevant Modules</h1>
       <hr />
       <ul className="modules-list">
         <li>Statistical Data Analysis (94.9%)</li>
@@ -56,7 +56,7 @@ function RelevantModules() {
 function TechSkillsList() {
   return (
     <section>
-      <h1 className="section-heading">Skills</h1>
+      <h1 className="section-heading" id="skills-heading">Skills</h1>
       <hr />
       <ul className="modules-list">
         <li>
@@ -96,7 +96,7 @@ function TechSkillsList() {
 function RecentProjects() {
   return (
     <section>
-      <h1 className="section-heading">Recent Projects</h1>
+      <h1 className="section-heading" id="projects-heading">Recent Projects</h1>
       <hr />
       <ul className="modules-list">
         <li>
@@ -132,7 +132,7 @@ function RecentProjects() {
 function Languages() {
   return (
     <section>
-      <h1 className="section-heading">Languages</h1>
+      <h1 className="section-heading" id="languages-heading">Languages</h1>
       <hr />
       <ul className="modules-list">
         <li>English (Native proficiency)</li>

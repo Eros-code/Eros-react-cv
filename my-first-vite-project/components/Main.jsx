@@ -4,7 +4,7 @@ import "../src/App.css";
 function Education() {
   return (
     <section>
-      <h1 className="section-heading">Education</h1>
+      <h1 className="section-heading" id="education-heading">Education</h1>
       <hr />
       <div className="row">
         <p className="education-title p-row">
@@ -33,7 +33,7 @@ function Education() {
 function Experience() {
   return (
     <section>
-      <h1 className="section-heading">Relevant Experience</h1>
+      <h1 className="section-heading" id="experience-heading">Relevant Experience</h1>
       <hr />
       <div className="row">
         <p className="p-row">

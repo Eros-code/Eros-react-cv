@@ -273,3 +273,47 @@ p {
   padding-right: 5px;
   font-size: 20px;
 }
+
+/* ====================== Headings ================================ */
+
+#education-heading::before {
+  content: "\f19d";
+  font-family: "FontAwesome";
+  padding-right: 8px;
+  font-size: 20px;
+}
+
+#experience-heading::before {
+  content: "\f0b1";
+  font-family: "FontAwesome";
+  padding-right: 8px;
+  font-size: 20px;
+}
+
+#languages-heading::before {
+  content: "\f1ab";
+  font-family: "FontAwesome";
+  padding-right: 8px;
+  font-size: 20px;
+}
+
+#skills-heading::before {
+  content: "\f7d9";
+  font-family: "FontAwesome";
+  padding-right: 8px;
+  font-size: 20px;
+}
+
+#modules-heading::before {
+  content: "\f70e";
+  font-family: "FontAwesome";
+  padding-right: 8px;
+  font-size: 20px;
+}
+
+#projects-heading::before {
+  content: "\f807";
+  font-family: "FontAwesome";
+  padding-right: 8px;
+  font-size: 20px;
+}
