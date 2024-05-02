@@ -177,8 +177,15 @@ export default function Main() {
         </h1>
         <h4 className="header-desc" id="intro-description">
           <span className="eros-name">
-            I have a clear, logical mind with a practical approach to
-            problem-solving and a drive to see things through to completion.
+            Results-driven Junior Technology Consultant with experience in data
+            migration, dashboard development, and technical support. Proficient
+            in Agile methodologies and collaborating with
+            key stakeholders to deliver high-quality solutions. Skilled in ETL,
+            data analysis, cloud technologies, and data
+            visualization. Strong problem-solving abilities, effective
+            communication skills, and a proven track record of delivering
+            industry-standard technical projects. Passionate about continuous
+            learning and leveraging technology to drive business success.
           </span>
         </h4>
       </header>
