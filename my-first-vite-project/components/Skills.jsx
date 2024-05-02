@@ -167,7 +167,6 @@ export default function Skills() {
       <TechSkillsList />
       <RecentProjects />
       <Languages />
-      <Interests />
     </div>
   );
 }
