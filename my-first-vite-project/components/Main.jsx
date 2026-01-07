@@ -33,34 +33,66 @@ function Education() {
 function Experience() {
   return (
     <section>
-      <h1 className="section-heading" id="experience-heading">Relevant Experience</h1>
+      <h1 className="section-heading" id="experience-heading">
+        Relevant Experience
+      </h1>
       <hr />
       <div className="row">
         <p className="p-row">
           <strong>Junior Technology Consultant</strong>{" "}
           <span className="experience-title">
-            London, UK <br /> Aug 23 - Present
+            London, UK <br /> Aug 24 - Present
           </span>
         </p>
-        <p>Sigma Labs XYZ</p>
+        <p>Sigma Labs XYZ / HMPO</p>
       </div>
       <div className="row">
         <ul className="experience_bullets">
           <li>
-            Experience migrating dashboards and over 70+ analytical queries from splunk SPL to trino SQL using
-            agile methodologies via Jira kanban boards for key stakeholders including
-            Performance analysts investigating fraud and risk on behalf of the
-            HMRC.
+            Built and operated Kubernetes-based JupyterHub and Apache Superset
+            microservices across three environments using Python, Docker, Helm,
+            Jenkins and Bash scripting, providing a secure and reproducible
+            internal analytics platform for the data team.
           </li>
           <li>
-            Responsible for continually updating, supporting, developing and deploying a service
-            support web page used by data product customers. In turn greatly improving and simplifying 
-            the management and communication between product owners, technical support staff and customers.
+            Integrated Keycloak authentication, S3-backed persistence for
+            JupyterHub, and secure database access to team-owned datasets,
+            enabling consistent and governed analytics workflows.
           </li>
           <li>
-            Providing ad hoc technical support to performance analysts and other
-            stakeholders whilst liaising with tier 1 and tier 3 support when
-            needed.
+            Extracted and transformed data from multiple OLTP databases with
+            30-day purge cycles using SQL and pandas, generating Excel-based
+            reports that enabled business analysts, product managers, and
+            delivery leads to analyse passport application bottlenecks and lead
+            times.
+          </li>
+        </ul>
+        <p className="p-row">
+          <p> </p>
+          <span className="experience-title">
+            London, UK <br /> Aug 23 - Aug 24
+          </span>
+        </p>
+        <p>Sigma Labs XYZ / HMRC</p>
+        <ul className="experience_bullets">
+          <li>
+            Re-engineered Splunk SPL dashboards and 70+ queries for use in
+            Apache Superset with Trino SQL, improving efficiency and providing
+            performance analysts with reusable, self-service query patterns for
+            fraud and risk investigations.
+          </li>
+          <li>
+            Delivered CI/CD improvements for an internal HMRC service-support
+            web page used by data-product customers, greatly simplifying
+            communication and request management between product owners,
+            technical support teams, and users. Reduced support-request lead
+            times from ~1 day to ~1 hour.
+          </li>
+          <li>
+            Supported performance analysts and stakeholders with ad hoc
+            technical assistance, automating metric extraction with Python
+            scripts and collaborating with Tier 1 and Tier 3 teams to resolve
+            issues efficiently.
           </li>
         </ul>
       </div>
@@ -167,28 +199,6 @@ function AdditionalInfo() {
 export default function Main() {
   return (
     <div className="main-page-container">
-      <header className="main-header">
-        <h1 className="name">
-          <span className="eros-name">Erodokridos</span>
-          <strong> Achillea</strong>
-        </h1>
-        <h1 className="header-desc" id="job-title">
-          <strong>Junior Technology Consultant</strong>
-        </h1>
-        <h4 className="header-desc" id="intro-description">
-          <span className="eros-name">
-            Results-driven Junior Technology Consultant with experience in data
-            migration, dashboard development, and technical support. Proficient
-            in Agile methodologies and collaborating with
-            key stakeholders to deliver high-quality solutions. Skilled in ETL,
-            data analysis, cloud technologies, and data
-            visualization. Strong problem-solving abilities, effective
-            communication skills, and a proven track record of delivering
-            industry-standard technical projects. Passionate about continuous
-            learning and leveraging technology to drive business success.
-          </span>
-        </h4>
-      </header>
       <Education />
       <Experience />
       <InternshipInfo />

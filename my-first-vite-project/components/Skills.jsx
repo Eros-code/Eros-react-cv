@@ -1,43 +1,6 @@
 import React from "react";
 import "../src/App.css";
 
-function ContactInfo() {
-  return (
-    <ul className="info-list">
-      <li id="email">
-        <a href="mailto: eros.achillea@outlook.com">
-          eros.achillea@outlook.com
-        </a>
-      </li>
-      <li id="phone">
-        <a>0749 806 4329</a>
-      </li>
-      <li id="linkedin">
-        <a
-          href="https://www.linkedin.com/in/eros-achillea-078b18141/"
-          rel="noreferrer"
-        >
-          linkedin.com/in/eros-achillea-078b18141/
-        </a>
-      </li>
-      <li id="website">
-        <a
-          href="https://erosachillea.eu.pythonanywhere.com"
-          target="_blank"
-          rel="noreferrer"
-        >
-          erosachillea.eu.pythonanywhere.com
-        </a>
-      </li>
-      <li id="github">
-        <a href="https://github.com/Eros-code" target="_blank" rel="noreferrer">
-          github.com/Eros-code
-        </a>
-      </li>
-    </ul>
-  );
-}
-
 function RelevantModules() {
   return (
     <section className="relevant-modules">
@@ -56,42 +19,57 @@ function RelevantModules() {
 function TechSkillsList() {
   return (
     <section>
-      <h1 className="section-heading" id="skills-heading">Skills</h1>
+      <h1 className="section-heading" id="skills-heading">
+        Skills
+      </h1>
       <hr />
-      <ul className="modules-list">
+      <ul className="skills-list">
         <li>
           <strong>Programming Languages:</strong>
         </li>
-        <li className="skills-bullet">HTML, CSS, JavaScript, Python, R</li>
+        <li className="skills-bullet">HTML, CSS, JavaScript, Python, Bash, SQL</li>
 
         <li>
           <strong>Libraries & Frameworks:</strong>
         </li>
         <li className="skills-bullet">
-          Flask, Django, Pandas, Dash, PySpark, Kafka Confluent, SQLite, Plotly,
-          Matplotlib, Bootstrap, Boto3, BeautifulSoup, React
+          Flask, Pandas, Psycopg2, SQLite,
+          Matplotlib, Boto3, BeautifulSoup, React
         </li>
 
         <li>
           <strong>Tools & Platforms:</strong>
         </li>
         <li className="skills-bullet">
-          AWS EC2, AWS S3, AWS Lambda, AWS ECR, Docker, Git/github, Canva,
-          PythonAnywhere, PostgreSQL, Netlify, CLI, Visual Studio Code,
-          IntelliJ, JIRA, Confluence, Agile Methodology
-        </li>
-        <li>
-          <strong>Essential Characteristics:</strong>
-        </li>
-        <li className="skills-bullet">
-          Presentation, Verbal and written communication, Teamwork,
-          Collaboration, Problem solving, Curiosity, Analytical
+          AWS, Docker, Docker-compose, Git, Github, Bitbucket,
+          PostgreSQL, Visual Studio Code, IntelliJ, Jira, Confluence,
+          Jupyter Notebooks, Keycloak, Kubernetes, Jenkins
         </li>
       </ul>
     </section>
   );
 }
 
+function Strengths() {
+  return (
+    <section>
+      <h1 className="section-heading" id="strengths-heading">
+        Strengths
+      </h1>
+      <hr />
+      <ul className="strengths-list">
+        <li>Data analysis</li>
+        <li>Problem-solving / Critical thinking</li>
+        <li>Team collaboration</li>
+        <li>Effective communication</li>
+        <li>Curiosity</li>
+        <li>Agile methodologies / development</li>
+        <li>CI/CD</li>
+      </ul>
+      <br />
+    </section>
+  );
+}
 
 function RecentProjects() {
   return (
@@ -148,11 +126,12 @@ function Interests() {
     <section>
       <h1 className="section-heading" id="interests-heading">Interests</h1>
       <hr />
-      <ul className="modules-list">
-        <li id="guitar">Playing guitar</li>
-        <li id="health">Learning about physical & mental health</li>
-        <li id="Gym">Gym</li>
-        <li id="Reading">Reading</li>
+      <ul className="interests-list">
+        <li>Playing bouzouki</li>
+        <li>Watch collecting</li>
+        <li>Fitness</li>
+        <li>Reading</li>
+        <li>Boxing</li>
       </ul>
       <br />
     </section>
@@ -162,11 +141,10 @@ function Interests() {
 export default function Skills() {
   return (
     <div className="skills-page-container">
-      <ContactInfo />
       <RelevantModules />
       <TechSkillsList />
-      <RecentProjects />
-      <Languages />
+      <Strengths />
+      <Interests />
     </div>
   );
 }
