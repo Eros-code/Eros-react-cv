@@ -57,7 +57,9 @@ function Experience() {
           <li>
             Integrated Keycloak authentication, S3-backed persistence for
             JupyterHub, and secure database access to team-owned datasets,
-            enabling consistent and governed analytics workflows.
+            including implementing a mechanism to generate STS tokens for Aurora
+            PostgreSQL clusters, enabling consistent and governed analytics
+            workflows.
           </li>
           <li>
             Extracted and transformed data from multiple OLTP databases with
