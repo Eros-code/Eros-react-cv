@@ -57,15 +57,17 @@ export default function Intro() {
         </h1>
         <h4 className="header-desc" id="intro-description">
           <span className="eros-name">
-            Results-driven Junior Technology Consultant with experience in data
-            migration, dashboard development, and technical support. Proficient
-            in Agile methodologies and collaborating with key stakeholders to
-            deliver high-quality solutions. Skilled in ETL, data analysis, cloud
-            technologies, and data visualization. Strong problem-solving
-            abilities, effective communication skills, and a proven track record
-            of delivering industry-standard technical projects. Passionate about
-            continuous learning and leveraging technology to drive business
-            success.
+            Results-driven Junior Technology Consultant and Data Engineer with
+            hands-on experience in data migration, SQL query optimization,
+            dashboard development, and building internal analytics platforms.
+            Proficient in Python, pandas, ETL, cloud technologies, and
+            containerized environments (Docker, Kubernetes, Helm). Skilled in
+            Agile methodologies and collaborating with stakeholders to deliver
+            actionable insights, streamline processes, and enable data-driven
+            decision-making. Strong problem-solving and communication skills,
+            with a proven track record of delivering high-quality technical
+            solutions. Passionate about continuous learning and leveraging
+            technology to drive business impact.
           </span>
         </h4>
       </header>
