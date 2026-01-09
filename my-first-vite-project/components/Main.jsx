@@ -53,23 +53,25 @@ function Experience() {
             microservices with integrated Keycloak authentication across three
             environments using Python, Docker, Helm, Jenkins and Bash scripting,
             providing a secure, reproducible analytics platform and improving
-            developer experience by centralising tooling and removing local
-            setup overhead.
+            developer experience by centralising tooling, eliminating local setup
+            overhead, and lowered barriers for less-technical users, improving
+            accessibility and developer experience.
           </li>
           <li>
             Provisioned S3-backed persistence for JupyterHub using Terraform and
             built a Python/Bash file-watcher to sync notebooks, while enabling
             secure Aurora PostgreSQL access with STS tokens (boto3/psycopg2),
             allowing developers to share, edit, and collaboratively run
-            notebooks with live database queries, increasing team productivity.
+            notebooks with live database queries in seconds rather than minutes,
+            significantly increasing team productivity.
           </li>
           <li>
-            Extracted and transformed data from multiple OLTP databases with
-            30-day retention using SQL CTEs and Pandas dataframes, generating
-            Excel reports that provided transparency into passport application
-            examination/investigation workflows, enabling business analysts,
-            product managers, and delivery leads to identify and streamline
-            bottlenecks.
+            Extracted and transformed data from multiple event based OLTP
+            databases with 30-day retention using SQL CTEs and Pandas
+            dataframes, generating Excel reports that provided transparency into
+            passport application examination/investigation workflows, enabling
+            business analysts, product managers, and delivery leads to identify
+            and review potential bottlenecks.
           </li>
         </ul>
         <p className="p-row">
@@ -95,9 +97,10 @@ function Experience() {
           <li>
             Automated user account and permission audits for Tier 1 by
             developing reusable Python scripts that extracted metrics from
-            Terraform files, streamlining team assignments, dashboard access,
-            and account management while unblocking Tier 3 to focus on feature
-            development.
+            Terraform files containing ~500 users, identifying and removing
+            {" >"}100 inactive accounts and reducing initialization times by
+            30%, lowering operational load on webservers for improved system
+            performance.
           </li>
         </ul>
       </div>
