@@ -34,7 +34,7 @@ function TechSkillsList() {
         </li>
         <li className="skills-bullet">
           Flask, Pandas, Psycopg2, SQLite,
-          Matplotlib, Boto3, BeautifulSoup, React
+          Matplotlib, Boto3, BeautifulSoup, Requests, SQLAlchemy, React
         </li>
 
         <li>
@@ -43,7 +43,7 @@ function TechSkillsList() {
         <li className="skills-bullet">
           AWS, Docker, Docker-compose, Git, Github, Bitbucket,
           PostgreSQL, Visual Studio Code, IntelliJ, Jira, Confluence,
-          Jupyter Notebooks, Keycloak, Kubernetes, Jenkins
+          Jupyter Notebooks, Keycloak, Kubernetes, Jenkins, Terraform
         </li>
       </ul>
     </section>
@@ -74,25 +74,40 @@ function Strengths() {
 function RecentProjects() {
   return (
     <section>
-      <h1 className="section-heading" id="projects-heading">Recent Projects</h1>
+      <h1 className="section-heading" id="projects-heading">
+        Recent Projects
+      </h1>
       <hr />
       <ul className="modules-list">
-        <li>
+        {/* <li>
           <strong>FMOD dynamic music system UI:</strong>
         </li>
         <li className="skills-bullet">
           A html page connected to an FMOD project that allows user interaction
           to determine the state of a piece of music by adjusting sliders
           corresponding to their respective parameters.
+        </li> */}
+        <li>
+          <strong>Superset Terraform:</strong>
+        </li>
+        <li className="skills-bullet">
+          A fully automated AWS infrastructure using Terraform, deploying an
+          Application Load Balancer fronting EC2-based Apache Superset web
+          servers in an Auto Scaling Group, with RDS for metadata storage.
+          Instances are bootstrapped via shell scripts to pull and run Superset
+          Docker images from Amazon ECR, with network access controlled through
+          Terraform-managed security groups.
         </li>
         <li>
           <strong>Personal Website:</strong>
         </li>
         <li className="skills-bullet">
-          A portfolio site designed and built by myself using Django and hosted
-          on a PythonAnywhere server to showcase my skills and past work.
+          A portfolio site designed and built by myself using Python Django,
+          HTML, CSS and javascript and hosted on a PythonAnywhere server 
+          to showcase my skills and past work / projects completed during my 
+          time as a trainee on the Sigma Labs Data Engineer Trainee Programme.
         </li>
-        <li>
+        {/* <li>
           <strong>Deloton:</strong>
         </li>
         <li>
@@ -100,7 +115,7 @@ function RecentProjects() {
           containing the last 24 hours worth of data presented in a pdf format
           was built to capture and compare KPIs from data streamed from exercise
           bikes.
-        </li>
+        </li> */}
       </ul>
       <br />
     </section>
@@ -144,6 +159,7 @@ export default function Skills() {
       <RelevantModules />
       <TechSkillsList />
       <Strengths />
+      <RecentProjects />
       <Interests />
     </div>
   );

@@ -39,7 +39,7 @@ function Experience() {
       <hr />
       <div className="row">
         <p className="p-row">
-          <strong>Junior Technology Consultant</strong>{" "}
+          <strong>Technology Consultant</strong>{" "}
           <span className="experience-title">
             London, UK <br /> Aug 24 - Present
           </span>
@@ -50,30 +50,30 @@ function Experience() {
         <ul className="experience_bullets">
           <li>
             Built and operated Kubernetes-based JupyterHub and Apache Superset
-            microservices across three environments using Python, Docker, Helm,
-            Jenkins and Bash scripting, providing a secure and reproducible
-            internal analytics platform for the data team.
+            microservices with integrated Keycloak authentication across three
+            environments using Python, Docker, Helm, Jenkins and Bash scripting,
+            providing a secure, reproducible analytics platform and improving
+            developer experience by centralising tooling and removing local
+            setup overhead.
           </li>
           <li>
-            Integrated Keycloak authentication, S3-backed persistence for
-            JupyterHub, and secure database access to team-owned datasets,
-            including implementing a mechanism to generate STS tokens for Aurora
-            PostgreSQL clusters, enabling consistent and governed analytics
-            workflows.
+            Provisioned S3-backed persistence for JupyterHub using Terraform and
+            built a Python/Bash file-watcher to sync notebooks, while enabling
+            secure Aurora PostgreSQL access with STS tokens (boto3/psycopg2),
+            allowing developers to share, edit, and collaboratively run
+            notebooks with live database queries, increasing team productivity.
           </li>
           <li>
             Extracted and transformed data from multiple OLTP databases with
-            30-day purge cycles using SQL and pandas, generating Excel-based
-            reports that enabled business analysts, product managers, and
-            delivery leads to analyse passport application bottlenecks and lead
-            times.
+            30-day retention using SQL CTEs and Pandas dataframes, generating
+            Excel reports that provided transparency into passport application
+            examination/investigation workflows, enabling business analysts,
+            product managers, and delivery leads to identify and streamline
+            bottlenecks.
           </li>
         </ul>
         <p className="p-row">
-          <p> </p>
-          <span className="experience-title">
-            London, UK <br /> Aug 23 - Aug 24
-          </span>
+          <span className="experience-title">Aug 23 - Aug 24</span>
         </p>
         <p>Sigma Labs XYZ / HMRC</p>
         <ul className="experience_bullets">
@@ -81,7 +81,9 @@ function Experience() {
             Re-engineered Splunk SPL dashboards and 70+ queries for use in
             Apache Superset with Trino SQL, improving efficiency and providing
             performance analysts with reusable, self-service query patterns for
-            fraud and risk investigations.
+            fraud and risk investigations. Significantly reducing the number of
+            support requests to the support team and decreasing operational
+            overhead by at least 50%.
           </li>
           <li>
             Delivered CI/CD improvements for an internal HMRC service-support
@@ -91,16 +93,17 @@ function Experience() {
             times from ~1 day to ~1 hour.
           </li>
           <li>
-            Supported performance analysts and stakeholders with ad hoc
-            technical assistance, automating metric extraction with Python
-            scripts and collaborating with Tier 1 and Tier 3 teams to resolve
-            issues efficiently.
+            Automated user account and permission audits for Tier 1 by
+            developing reusable Python scripts that extracted metrics from
+            Terraform files, streamlining team assignments, dashboard access,
+            and account management while unblocking Tier 3 to focus on feature
+            development.
           </li>
         </ul>
       </div>
       <div className="row">
         <p className="p-row">
-          <strong>Trainee Software & Data Engineer</strong>{" "}
+          <strong>Sigma Labs Data Engineer Trainee Programme</strong>{" "}
           <span className="experience-title">
             London, UK <br /> Oct 22 - Feb 23
           </span>
@@ -132,7 +135,9 @@ function Experience() {
 function InternshipInfo() {
   return (
     <section>
-      <h1 className="section-heading" id="internship-heading">Internship</h1>
+      <h1 className="section-heading" id="internship-heading">
+        Internship
+      </h1>
       <hr />
       <div className="row">
         <p className="p-row">
@@ -146,16 +151,21 @@ function InternshipInfo() {
       <div>
         <ul className="experience_bullets">
           <li>
-            Developed a driver in python which enabled communication between a
-            waveform generator and a computer by referencing API documentation.
+            Developed a Python driver to interface with a waveform generator
+            using vendor API documentation, automating hardware control and
+            improving the reliability and repeatability of experiments.
           </li>
           <li>
             Researched and interpreted PHD theses to learn about quantum
-            computation via doppler cooling on Ytterbium ions.
+            computation via doppler cooling on Ytterbium ions. Building domain
+            knowledge to support experimental simulation and software
+            development.
           </li>
           <li>
-            simulated waveforms by producing python functions that outputted
-            .csv files and performed fourier transformations on these waveforms.
+            Simulated waveforms by producing python functions that outputted
+            .csv files and performed fourier transformations on these waveforms,
+            enabling frequency-domain analysis and validation of signals prior
+            to experimental use.
           </li>
         </ul>
       </div>

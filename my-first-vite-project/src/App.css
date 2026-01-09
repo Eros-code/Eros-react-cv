@@ -1,7 +1,6 @@
 #root {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
 }
 
 .logo {
@@ -46,7 +45,7 @@
   align-items: center;
   justify-content: center;
   gap: 1rem;
-  padding: 7rem;
+  padding: 1rem;
 }
 
 .page-container {
@@ -65,13 +64,14 @@
   border-radius: 10px;
   padding-left: 10px;
   padding-right: 10px;
-  max-width: 25%;
+  max-width: 26%;
 }
 
 .name {
   font-size: 50px;
   margin-top: 0px;
   margin-bottom: 10px;
+  margin-left: -4px;
 }
 
 .header-desc {
@@ -83,6 +83,7 @@
 .main-page-container {
   margin-right: 15px;
   margin-left: 15px;
+  margin-bottom: -25px;
 }
 
 #job-title {
@@ -94,6 +95,8 @@
 
 #intro-description {
   margin-top: 10px;
+  margin-bottom: 0px;
+  font-size: 12pt;
 }
 
 .eros-name {
@@ -105,6 +108,8 @@
 .info-list {
   list-style-type: none;
   line-height: 25px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .info-list > li {
@@ -118,7 +123,7 @@
 .info-list,
 li,
 a {
-  font-size: 13px;
+  font-size: 12pt;
   margin-right: 10px;
 }
 
@@ -182,6 +187,7 @@ a:active {
 section,
 h1 {
   font-size: 20px;
+  margin-top: 5px;
 }
 
 hr {
@@ -222,7 +228,7 @@ li {
   padding-right: 0px;
 }
 .strengths-list > li {
-  font-size: 13px;
+  font-size: 12pt;
   line-height: 20px;
 }
 
@@ -242,32 +248,29 @@ li {
 
 .row,
 p {
-  font-size: 15px;
+  font-size: 12pt;
   margin-top: 0px;
   line-height: 5px;
 }
 
-.education-title {
-  padding-top: 5px;
-}
-
 .experience_bullets {
-  font-size: 13px;
-  padding-right: 7%;
+  font-size: 12pt;
   margin-left: -14px;
   line-height: 20px;
+  margin-top: 0px;
 }
 
 .experience_bullets > li {
-  font-size: 13px;
+  font-size: 12pt;
+  margin-bottom: 10px;
 }
 
 .modules-list > li {
-  font-size: 13px;
+  font-size: 12pt;
   line-height: 20px;
 }
 .skills-list > li {
-  font-size: 13px;
+  font-size: 12pt;
   line-height: 20px;
 }
 
@@ -296,7 +299,7 @@ li {
 }
 
 .interests-list > li {
-  font-size: 13px;
+  font-size: 12pt;
   line-height: 20px;
 }
 /* ====================== Interests Icons ================================ */
@@ -326,6 +329,11 @@ li {
   font-family: "FontAwesome";
   padding-right: 5px;
   font-size: 20px;
+}
+
+hr {
+  margin-top: 3px;
+  margin-bottom: 3px;
 }
 
 /* ====================== Headings ================================ */

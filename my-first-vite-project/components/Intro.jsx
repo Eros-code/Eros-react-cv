@@ -47,7 +47,7 @@ export default function Intro() {
           <strong> Achillea</strong>
         </h1>
         <h1 className="header-desc" id="job-title">
-          <strong>Junior Technology Consultant</strong>
+          <strong>Technology Consultant</strong>
         </h1>
         <hr />
         <ContactInfo />
@@ -57,7 +57,7 @@ export default function Intro() {
         </h1>
         <h4 className="header-desc" id="intro-description">
           <span className="eros-name">
-            Results-driven Junior Technology Consultant and Data Engineer with
+            Results-driven Technology Consultant and trained Data Engineer with
             hands-on experience in data migration, SQL query optimization,
             dashboard development, and building internal analytics platforms.
             Proficient in Python, pandas, ETL, cloud technologies, and
